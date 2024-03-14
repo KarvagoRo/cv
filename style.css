@@ -1,0 +1,60 @@
+/*comentarios css*/
+/* selector de etiquetas*/
+body{
+    /*font-family:Arial, Helvetica, sans-serif ; /* Tipografia*/
+    background-color: antiquewhite;
+    font-family: 'Dancing Script', sans-serif; /* coloco el combre de la fuente descargada por google*/
+    font-size: 20px;
+}
+
+/*selector de clase*/
+.cafe{
+    text-align: center; 
+    background-color: rgb(100, 92, 51); 
+    color: white;
+
+}
+/* selector de tipo id*/
+/* identificador unico*/
+#Perfil{
+    width: 150px;
+}
+/* selector de clase*/
+.Titulo{
+    color:yellowgreen;
+    background-color: black;
+    width: 150px;
+    padding: 12px;
+    margin: 10px;
+    border-top-left-radius: 20px;
+
+
+}
+
+h2{
+    color: red;
+}
+
+#Edu{
+    color: blueviolet;
+}
+
+/*Selector avanzado*/
+header nav ul {
+    background-color: yellowgreen;
+    list-style-type: none; /* eliminar las viñetas*/
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none; /* eliminar las lineas azules de los enlaces*/
+
+}
+
+h3{
+    color:rgb(116, 116, 17)
+}
+
+p{
+    background-color: beige;
+}
